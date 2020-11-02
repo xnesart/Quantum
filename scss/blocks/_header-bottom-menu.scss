@@ -1,0 +1,82 @@
+// HEADER categories start
+.header-bottom-menu {
+    border-top: $border;
+    height: 60px;
+    padding-top: 0;
+    margin-top: 30px;
+  }
+  .header-categories-list {
+    display: flex;
+    align-items: center;
+    border-right: $border;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 60px;
+    color: #808080;
+    height: 60px;
+    padding-right: 50px;
+    font-family: "Roboto", "Arial", sans-serif;
+  }
+  .header-list-button {
+    background-color: #fff;
+    border: none;
+  }
+  .header-list-menu {
+    padding-right: 20px;
+  }
+  // HEADER categories end
+  
+  // HEADER offers start
+  .header-offers {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 60px;
+    padding-right: 30px;
+    border-right: $border;
+  }
+  .header-offers-list {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+  }
+  .header-offers-item {
+    padding-right: 30px;
+  }
+  .header-offers-links {
+    font-family: "Roboto", "Arial", sans-serif;
+    color: #666666;
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 60px;
+  }
+  // HEADER offers end
+  
+  // HEADER tools start
+  .header-tools {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 60px;
+  }
+  .header-tools-item {
+    display: flex;
+    align-items: center;
+    padding-right: 30px;
+    padding-left: 30px;
+    border-right: $border;
+    height: 60px;
+    cursor: pointer;
+  }
+  .header-tools-item:last-child {
+    border-right: none;
+  }
+  .search-breakdown {
+    font-family: "Roboto", "Arial", sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 30px;
+    cursor: pointer;
+    color: #b3b3b3;
+  }

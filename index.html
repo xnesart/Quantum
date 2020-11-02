@@ -9,37 +9,104 @@
 </head>
 <body>
     <header class="header">
-        <div class="header-wrapper">
+        <div class="header-wrapper header-top-menu">
+            <a href="index.html" class="header-logo-link">
             <div class="header-logo">
               Quantum
-
             </div>
+            </a>
             <form class="header-search">
                 <div class="header-search-button">
-                    <button type="submit">
-                        <img src="./img/svg/icon-search.svg" alt="Search icon">
+                    <button type="submit" class="search-submit">
+                        <img src="./img/svg/icon-search.svg" alt="Search icon" class="submit-icon">
                     </button>
                 </div>
                 <div class="header-search-input">
-                    <input type="text" placeholder="Search goods" class="">
-                </div>
-                <div class="heart-search-breakdown">
-                    <select name="" id="" class="">
-                        <option value="" class="">CATEGORY</option>
-                        <option value="" class="">Mobile</option>
-                        <option value="" class="">Tablet</option>
-                        <option value="" class="">Laptop</option>
-                    </select>
+                    <input type="text" placeholder="Search goods" class="search-text">
                 </div>
 
+                <div class="header-search-breakdown">
+                    <div class="header-select" data-select>
+                        <div class="header-select-title" data-select-title>CATEGORY</div>
+                        <div class="header-select-dropdown hidden">
+                            <div data-select-item="Mobile" class="header-select-dropdown-item">Mobile</div>
+                            <div data-select-item="Tablet" class="header-select-dropdown-item">Tablet</div>
+                            <div data-select-item="Laptop" class="header-select-dropdown-item">Laptop</div>
+                        </div>
+                    </div>
+                    
+                </div>
+                <select name="" id="selectReal" class="hidden" value="none">
+                    <option value="none" class="">CATEGORY</option>
+                    <option value="Mobile" class="">Mobile</option>
+                    <option value="Tablet" class="">Tablet</option>
+                    <option value="Laptop" class="">Laptop</option>
+                </select>
 
             </form>
+            
             <div class="header-buttons">
+                <a href="#!" class="cart-link">
+                    <div class="button-cart button-cart-notify">
+                        <img src="./img/svg/icon-cart.svg" alt="Cart" class="button-cart-icon">
+                        <p class="button-cart-text">2 Items</p>                  
+                    </div>
+                </a>
+                <a href="#!" class="wishlist-link">
+                    <div class="button-wishlist">
+                        <img src="./img/svg/icon-heart.svg" alt="Wishlist" class="wishlist-heart-icon">
+                        <p class="button-wishlist-text">Wish List</p>                        
+                    </div>
+                </a>
+                <a href="#!" class="profile-link">
+                    <div class="button-profile">
+                        <img src="./img/svg/icon-profile.svg" alt="Sign in" class="button-profile-icon">
+                        <p class="button-profile-text">Sing in</p>                        
+                    </div>
+                </a>
+            </div>
+
+        </div>
+        <div class="header-wrapper header-bottom-menu">
+            <div class="header-categories">
+                <div class="header-categories-list">
+                    <button type="submit" class="header-list-button"><img src="./img/svg/header-list-menu.svg" alt="Categories menu" class="header-list-menu"></button>
+                    All Categories
+                </div>
+
+            </div>
+            <div class="header-offers">
+                <ul class="header-offers-list">
+                    <li class="header-offers-item"><a href="#!" class="header-offers-links">Super Deals</a></li>
+                    <li class="header-offers-item"><a href="#!" class="header-offers-links">Featured Brands</a></li>
+                    <li class="header-offers-item"><a href="#!" class="header-offers-links">Collections</a></li>
+                    <li class="header-offers-item"><a href="#!" class="header-offers-links">Bestselling</a></li>
+                </ul>
+
+
+            </div>
+            <div class="header-tools">
+                <div class="header-tools-item">
+                    <select name="" id="" class="search-breakdown">
+                        <option value="" class="">HELP</option>
+                    </select>
+                </div>
+                <div class="header-tools-item">
+                    <select name="" id="" class="search-breakdown">
+                        <option value="" class="">USD</option>
+                    </select>
+                </div>
+                <div class="header-tools-item">
+                    <select name="" id="" class="search-breakdown">
+                        <option value="" class="">Language</option>
+                    </select>
+                </div>
 
             </div>
 
         </div>
     </header>
+    <script src="js/main.js"></script>
     
 </body>
 </html>

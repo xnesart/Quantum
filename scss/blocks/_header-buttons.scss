@@ -1,0 +1,74 @@
+// HEADER buttons start
+.header-buttons {
+    display: flex;
+    justify-content: space-between;
+    height: 50px;
+    width: 350px;
+  }
+  .cart-link,
+  .wishlist-link,
+  .profile-link {
+    text-decoration: none;
+  }
+  .button-cart {
+      position: relative;
+    display: flex;
+    justify-content: space-between;
+    height: 50px;
+    width: 90px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 30px;
+    color: #808080;
+    font-family: "Roboto", "Arial", sans-serif;
+    &:hover {
+        color: green;
+    }
+  }
+  .button-cart-notify:after {
+      top: 10px;
+      left: 25px;
+      position: absolute;
+      width: 6px;
+      height: 6px;
+      content: "";
+      border-radius: 50%;
+      background-color: rgb(9, 71, 121);
+  }
+  .button-cart-icon {
+    padding-top: 15px;
+    width: 26px;
+    height: 26px;
+  }
+  .button-wishlist {
+    display: flex;
+    justify-content: space-between;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 30px;
+    color: #808080;
+    font-family: "Roboto", "Arial", sans-serif;
+  }
+  .wishlist-heart-icon {
+    padding-top: 15px;
+    padding-right: 15px;
+    width: 26px;
+    height: 26px;
+  }
+  .button-profile {
+    display: flex;
+    justify-content: space-between;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 30px;
+    color: #808080;
+    font-family: "Roboto", "Arial", sans-serif;
+  }
+  .button-profile-icon {
+    padding-top: 15px;
+    padding-right: 15px;
+    width: 26px;
+    height: 26px;
+  }
+  // HEADER buttons end
