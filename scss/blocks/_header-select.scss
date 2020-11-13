@@ -14,7 +14,6 @@
 }
 .header-select-title {
   font-family: "Roboto", "Arial", sans-serif;
-
   position: relative;
   color: #b3b3b3;
   font-weight: 900;
@@ -34,6 +33,10 @@
     background-image: url("./../img/svg/dropdown-arrow.svg");
   }
 }
+.header-categories-title-link {
+  text-decoration: none;
+  
+}
 .header-select-dropdown {
   position: absolute;
   top: 100%;
@@ -42,6 +45,7 @@
   border-radius: 0 0 4px 4px;
   width: 112px;
   background-color: #fff;
+  z-index: 1;
 }
 .header-select-dropdown-item {
   display: flex;

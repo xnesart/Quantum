@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Quantum</title>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="scss/main.css">
 </head>
 <body>
     <header class="header">
@@ -68,12 +68,17 @@
 
         </div>
         <div class="header-wrapper header-bottom-menu">
-            <div class="header-categories">
-                <div class="header-categories-list">
-                    <button type="submit" class="header-list-button"><img src="./img/svg/header-list-menu.svg" alt="Categories menu" class="header-list-menu"></button>
-                    All Categories
-                </div>
+            <div class="header-categories-list">
+                <button onclick="myFunction()" type="submit" class="header-list-button"><img src="./img/svg/header-list-menu.svg" alt="Categories menu" class="header-list-menu">All Categories</button>
+                <a href="#!" class="header-categories-title-link"><div class="header-categories-title"></div></a>
+                <ul id="myDropdown" class="header-categories-menu hidden">                        
+                    <a href="#!" class="header-categories-link"><li class="header-categories-item">Computers</li></a>
+                    <a href="#!" class="header-categories-link"><li class="header-categories-item">Laptops</li></a>
+                    <a href="#!" class="header-categories-link"><li class="header-categories-item">Friends</li></a>
+                    <a href="#!" class="header-categories-link"><li class="header-categories-item">Accessories</li></a>
+                    <a href="#!" class="header-categories-link"><li class="header-categories-item">TV & Video</li></a>
 
+                </ul>
             </div>
             <div class="header-offers">
                 <ul class="header-offers-list">
@@ -87,8 +92,33 @@
             </div>
             <div class="header-tools">
                 <div class="header-tools-item">
+                    <p onclick="myFunctionHelp()" class="header-tools-title">Help</p>                    
+                    <ul id="myDropdownHelp" class="header-tools-list hidden">
+                        <a href="" class="header-list-link"><li class="header-list-item">HELP 1</li></a>
+                        <a href="" class="header-list-link"><li class="header-list-item">HELP 2</li></a>
+                        <a href="" class="header-list-link"><li class="header-list-item">HELP 3</li></a>
+                    </ul>
+                </div>
+                <div class="header-tools-item">
+                    <p onclick="myFunctionUSD()" class="header-tools-title">USD</p>                    
+                    <ul id="myDropdownUSD" class="header-tools-list hidden">
+                        <a href="" class="header-list-link"><li class="header-list-item">USD 1</li></a>
+                        <a href="" class="header-list-link"><li class="header-list-item">USD 2</li></a>
+                        <a href="" class="header-list-link"><li class="header-list-item">USD 3</li></a>
+                    </ul>
+                </div>
+                <div class="header-tools-item">
+                    <p onclick="myFunctionLanguage()" class="header-tools-title">Language</p>                    
+                    <ul id="myDropdownLanguage" class="header-tools-list hidden">
+                        <a href="" class="header-list-link"><li class="header-list-item">Language 1</li></a>
+                        <a href="" class="header-list-link"><li class="header-list-item">Language 2</li></a>
+                        <a href="" class="header-list-link"><li class="header-list-item">Language 3</li></a>
+                    </ul>
+                </div>
+
+                <!-- <div class="header-tools-item">
                     <select name="" id="" class="search-breakdown">
-                        <option value="" class="">HELP</option>
+                        <option value="" class="">Help</option>
                     </select>
                 </div>
                 <div class="header-tools-item">
@@ -100,7 +130,7 @@
                     <select name="" id="" class="search-breakdown">
                         <option value="" class="">Language</option>
                     </select>
-                </div>
+                </div> -->
 
             </div>
 
