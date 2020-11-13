@@ -19,5 +19,18 @@ selectElement.addEventListener("click", function(event){
 
     } else {
         this.querySelector(".header-select-dropdown").classList.toggle("hidden");
+        this.querySelector(".header-categories-menu").classList.toggle("hidden");
     }
 })
+function myFunction() {
+    document.getElementById("myDropdown").classList.toggle("hidden");
+}
+function myFunctionHelp() {
+    document.getElementById("myDropdownHelp").classList.toggle("hidden");
+}
+function myFunctionUSD() {
+    document.getElementById("myDropdownUSD").classList.toggle("hidden");
+}
+function myFunctionLanguage() {
+    document.getElementById("myDropdownLanguage").classList.toggle("hidden");
+}
