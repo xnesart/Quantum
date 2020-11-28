@@ -1,0 +1,17 @@
+.main-row {
+    display: flex;
+}
+.main-column-left {
+    display: flex;
+    flex-direction: column;
+}
+.navigation {
+    width: 255px;
+    margin-right: 30px;
+    flex-shrink: 0;
+}
+.main-column-right {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+}

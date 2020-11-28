@@ -6,6 +6,7 @@
     <title>Quantum</title>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="scss/main.css">
+    <link rel="stylesheet" href="./libs/owl-carousel/assets/owl.carousel.min.css"> 
 </head>
 <body>
     <header class="header">
@@ -34,7 +35,6 @@
                             <div data-select-item="Laptop" class="header-select-dropdown-item">Laptop</div>
                         </div>
                     </div>
-                    
                 </div>
                 <select name="" id="selectReal" class="hidden" value="none">
                     <option value="none" class="">CATEGORY</option>
@@ -42,9 +42,7 @@
                     <option value="Tablet" class="">Tablet</option>
                     <option value="Laptop" class="">Laptop</option>
                 </select>
-
             </form>
-            
             <div class="header-buttons">
                 <a href="#!" class="cart-link">
                     <div class="button-cart button-cart-notify">
@@ -65,7 +63,6 @@
                     </div>
                 </a>
             </div>
-
         </div>
         <div class="header-wrapper header-bottom-menu">
             <div class="header-categories-list">
@@ -77,7 +74,6 @@
                     <a href="#!" class="header-categories-link"><li class="header-categories-item">Friends</li></a>
                     <a href="#!" class="header-categories-link"><li class="header-categories-item">Accessories</li></a>
                     <a href="#!" class="header-categories-link"><li class="header-categories-item">TV & Video</li></a>
-
                 </ul>
             </div>
             <div class="header-offers">
@@ -87,35 +83,32 @@
                     <li class="header-offers-item"><a href="#!" class="header-offers-links">Collections</a></li>
                     <li class="header-offers-item"><a href="#!" class="header-offers-links">Bestselling</a></li>
                 </ul>
-
-
             </div>
-            <div class="header-tools">
-                <div class="header-tools-item">
+            <ul class="header-tools">
+                <li class="header-tools-item">
                     <p onclick="myFunctionHelp()" class="header-tools-title">Help</p>                    
                     <ul id="myDropdownHelp" class="header-tools-list hidden">
                         <a href="" class="header-list-link"><li class="header-list-item">HELP 1</li></a>
                         <a href="" class="header-list-link"><li class="header-list-item">HELP 2</li></a>
                         <a href="" class="header-list-link"><li class="header-list-item">HELP 3</li></a>
                     </ul>
-                </div>
-                <div class="header-tools-item">
+                </li>
+                <li class="header-tools-item">
                     <p onclick="myFunctionUSD()" class="header-tools-title">USD</p>                    
                     <ul id="myDropdownUSD" class="header-tools-list hidden">
                         <a href="" class="header-list-link"><li class="header-list-item">USD 1</li></a>
                         <a href="" class="header-list-link"><li class="header-list-item">USD 2</li></a>
                         <a href="" class="header-list-link"><li class="header-list-item">USD 3</li></a>
                     </ul>
-                </div>
-                <div class="header-tools-item">
+                </li>
+                <li class="header-tools-item">
                     <p onclick="myFunctionLanguage()" class="header-tools-title">Language</p>                    
                     <ul id="myDropdownLanguage" class="header-tools-list hidden">
                         <a href="" class="header-list-link"><li class="header-list-item">Language 1</li></a>
                         <a href="" class="header-list-link"><li class="header-list-item">Language 2</li></a>
                         <a href="" class="header-list-link"><li class="header-list-item">Language 3</li></a>
                     </ul>
-                </div>
-
+                </li>
                 <!-- <div class="header-tools-item">
                     <select name="" id="" class="search-breakdown">
                         <option value="" class="">Help</option>
@@ -131,12 +124,483 @@
                         <option value="" class="">Language</option>
                     </select>
                 </div> -->
-
-            </div>
-
+            </ul>
         </div>
     </header>
+    <main class="main">
+        <div class="wrapper">
+            <div class="slider-section">
+                <!-- Блок слайдеров  -->
+                <div class="slider owl-carousel owl-theme" id="carousel-header">
+                    <!-- Слайд 1 -->
+                    <div class="slider-item">
+                        <h2 class="slider-item-title">The Universe Through A Child S Eyes</h2>
+                        <p class="slider-item-text">Start sales</p>                                              
+                    </div>
+                     <!-- //Слайд 1 -->
+                     <!-- Слайд 2 -->
+                    <div class="slider-item">
+                        <h2 class="slider-item-title">The Universe Through A Child S Eyes</h2>
+                        <p class="slider-item-text">Start sales</p>                                              
+                    </div>
+                     <!-- //Слайд 1 -->
+                     <!-- Слайд 3 -->
+                    <div class="slider-item">
+                        <h2 class="slider-item-title">The Universe Through A Child S Eyes</h2>
+                        <p class="slider-item-text">Start sales</p>                                              
+                    </div>
+                     <!-- //Слайд 3 -->
+                </div>
+            </div>
+            <!-- //Блок слайдеров  -->
+        </div>
+        <div class="wrapper">
+            <section class="promo-section">
+                <div class="promo-section-row">
+                    <div class="promo-section-col">
+                        <!-- Item -->
+                        <a href="#!" class="promo-section-item-link-wrapper">
+                            <div class="promo-section-item">
+                                <h4 class="promo-section-item-title">Astronomy Or Astrology</h4>
+                                <div class="promo-section-item-subtitle">Start sales</div>
+                                <img src="./img/promo/promo-headphones.jpg" class="promo-section-item-image" alt="Headphones">                          
+                            </div>
+                        </a>
+                        <!-- //Item -->
+                    </div>
+                    <div class="promo-section-col">
+                         <!-- Item with background image -->
+                         <a href="#!" class="promo-section-item-link-wrapper">
+                            <div class="promo-section-item promo-section-item-background-img">
+                                <h4 class="promo-section-item-title">The Basics Of Buying A Telescope</h4>
+                                <div class="promo-section-item-subtitle">Astronomy Or Astrology</div>
+                            </div>
+                        </a>
+                        <!-- //Item  with background image-->
+                    </div>
+                    <div class="promo-section-col">
+                        <!-- Small Item -->
+                        <a href="#!" class="promo-section-item-link-wrapper">
+                            <div class="promo-section-item-small">
+                                <div class="promo-section-item-img-cell">
+                                    <img src=".././img/promo/promo-pencil.jpg" alt="" class="scr">
+                                </div>
+                                <div class="promo-section-item-title-cell">
+                                    <h4 class="">Getting Free Publicity For Your Business</h4>
+                                </div>
+                            </div>
+                        </a>
+                        <!-- //Small Item -->
+                        <!-- Small Item -->
+                        <a href="#!" class="promo-section-item-link-wrapper">
+                            <div class="promo-section-item-small">
+                                <div class="promo-section-item-img-cell">
+                                    <img src=".././img/promo/promo-watch.jpg" alt="" class="scr">
+                                </div>
+                                <div class="promo-section-item-title-cell">
+                                    <h4 class="">How Plasma Tvs And Lcd Tvs Differ</h4>
+                                </div>
+                            </div>
+                        </a>
+                        <!-- //Small Item -->
+                    </div>
+                </div>
+            </section>
+        </div>
+        <div class="wrapper">
+            <div class="main-row">
+                <!-- Left column -->
+                <div class="main-column-left">
+                    <!-- Navigation -->
+                    <div class="navigation">
+                        <ul class="navigation-list">
+                            <li class="navigation-item">
+                                <div class="navigation-item-icon">
+                                    <img class="navigation-item-icon-thumb" src="img/left-panel/1.svg" alt="">
+                                </div>
+                                <div class="navigation-item-title">
+                                    Computers
+                                </div>
+                                <div class="navigation-item-arrow">
+                                    <img class="navigation-item-arrow-icon" src="img/left-panel/arrow-right.svg" alt="">
+                                </div>
+                            </li>
+                            <li class="navigation-item">
+                                <div class="navigation-item-icon">
+                                    <img class="navigation-item-icon-thumb" src="img/left-panel/2.svg" alt="">
+                                </div>
+                                <div class="navigation-item-title">
+                                    Apple Computers
+                                </div>
+                                <div class="navigation-item-arrow">
+                                    <img class="navigation-item-arrow-icon" src="img/left-panel/arrow-right.svg" alt="">
+                                </div>
+                            </li>
+                            <li class="navigation-item">
+                                <div class="navigation-item-icon">
+                                    <img class="navigation-item-icon-thumb" src="img/left-panel/3.svg" alt="">
+                                </div>
+                                <div class="navigation-item-title">
+                                    Laptops
+                                </div>
+                                <div class="navigation-item-arrow">
+                                    <img class="navigation-item-arrow-icon" src="img/left-panel/arrow-right.svg" alt="">
+                                </div>
+                            </li>
+                            <li class="navigation-item">
+                                <div class="navigation-item-icon">
+                                    <img class="navigation-item-icon-thumb" src="img/left-panel/4.svg" alt="">
+                                </div>
+                                <div class="navigation-item-title">
+                                    Friends
+                                </div>
+                                <div class="navigation-item-arrow">
+                                    <img class="navigation-item-arrow-icon" src="img/left-panel/arrow-right.svg" alt="">
+                                </div>
+                            </li>
+                            <li class="navigation-item">
+                                <div class="navigation-item-icon">
+                                    <img class="navigation-item-icon-thumb" src="img/left-panel/5.svg" alt="">
+                                </div>
+                                <div class="navigation-item-title">
+                                    Computer Components
+                                </div>
+                                <div class="navigation-item-arrow">
+                                    <img class="navigation-item-arrow-icon" src="img/left-panel/arrow-right.svg" alt="">
+                                </div>
+                            </li>
+                            <li class="navigation-item">
+                                <div class="navigation-item-icon">
+                                    <img class="navigation-item-icon-thumb" src="img/left-panel/6.svg" alt="">
+                                </div>
+                                <div class="navigation-item-title">
+                                    Accessories
+                                </div>
+                                <div class="navigation-item-arrow">
+                                    <img class="navigation-item-arrow-icon" src="img/left-panel/arrow-right.svg" alt="">
+                                </div>
+                            </li>
+                            <li class="navigation-item">
+                                <div class="navigation-item-icon">
+                                    <img class="navigation-item-icon-thumb" src="img/left-panel/7.svg" alt="">
+                                </div>
+                                <div class="navigation-item-title">
+                                    Cell Phones
+                                </div>
+                                <div class="navigation-item-arrow">
+                                    <img class="navigation-item-arrow-icon" src="img/left-panel/arrow-right.svg" alt="">
+                                </div>
+                            </li>
+                            <li class="navigation-item">
+                                <div class="navigation-item-icon">
+                                    <img class="navigation-item-icon-thumb" src="img/left-panel/8.svg" alt="">
+                                </div>
+                                <div class="navigation-item-title">
+                                    TV & Video
+                                </div>
+                                <div class="navigation-item-arrow">
+                                    <img class="navigation-item-arrow-icon" src="img/left-panel/arrow-right.svg" alt="">
+                                </div>
+                            </li>
+                            <li class="navigation-item">
+                                <div class="navigation-item-icon">
+                                    <img class="navigation-item-icon-thumb" src="img/left-panel/9.svg" alt="">
+                                </div>
+                                <div class="navigation-item-title">
+                                    Game consoles
+                                </div>
+                                <div class="navigation-item-arrow">
+                                    <img class="navigation-item-arrow-icon" src="img/left-panel/arrow-right.svg" alt="">
+                                </div>
+                            </li>
+                            <li class="navigation-item">
+                                <div class="navigation-item-icon">
+                                    <img class="navigation-item-icon-thumb" src="img/left-panel/10.svg" alt="">
+                                </div>
+                                <div class="navigation-item-title">
+                                    Watches
+                                </div>
+                                <div class="navigation-item-arrow">
+                                    <img class="navigation-item-arrow-icon" src="img/left-panel/arrow-right.svg" alt="">
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                    <!-- Navigation -->
+                    <!-- banner -->
+                    <div class="info">
+                        <div class="info-title">Look Up In The Sky</div>
+                        <div class="info-subtitle">Astronomy Or Astrology</div>
+                    </div>
+                    <!--// banner -->
+                </div>
+                <!--// Left column -->
+                <!--  Right column -->
+                <div class="main-column-right">
+                    <!-- tabs -->
+                    <div class="tabs">
+                        <div class="tabs-left">
+                            <button class="tabs-btn tabs-btn--active">Popular products</button>
+                            <button class="tabs-btn">Low price</button>
+                            <button class="tabs-btn">High price</button>
+                        </div>
+                        <div class="tabs-right">
+                            <button class="tabs-right-view">
+                                <img class="tabs-right-view-module" src="./img/tabs/ic_view_module.svg" alt="">
+                            </button>
+                            <button class="tabs-right-view">
+                                <img class="tabs-right-view-stream" src="./img/tabs/ic_view_stream.svg" alt="">
+                            </button>
+                        </div>
+                    </div>
+                    <!-- //tabs -->
+                    <!-- Cards -->
+                    <div class="cards-wrapper">
+
+                    <!-- Card -->
+                        <div class="card">
+                            <div class="card-top-side">
+                                <div class="card-top-side-text">SALE</div>
+                                <div class="card-top-side-icons">
+                                    <button class="card-top-side-compare"></button>
+                                    <button class="card-top-side-favourites"></button>
+                                </div>
+                            </div>
+                            <div class="card-body">
+                                <img class="card-pic" src="img/card/1.jpg" alt="Asus ZenFone Go ZB452KG (black and white)">
+                                <h3 class="card-title">Asus ZenFone Go ZB452KG (black and white)</h3>
+                                <div class="card-rate">
+                                    <div class="card-stars">
+                                        <img src="img/card/star.svg" alt="" class="card-star">
+                                        <img src="img/card/star.svg" alt="" class="card-star">
+                                        <img src="img/card/star.svg" alt="" class="card-star">
+                                        <img src="img/card/star-half.svg" alt="" class="card-star-half">
+                                        <img src="img/card/star-empty.svg" alt="" class="card-star-empty">
+                                    </div>
+                                    <p class="card-rate-text">12</p>
+                                </div>
+                                <div class="card-price">
+                                    <p class="card-price-value">$ 384.4</p>
+                                    <img src="img/svg/icon-cart.svg" class="card-price-cart-icon"></img>
+                                </div>
+                            </div>
+                        </div>
+                    <!-- //Card -->
+                    
+                    <!-- Card -->
+                    <div class="card">
+                        <div class="card-top-side">
+                            <div class="card-top-side-text">SALE</div>
+                            <div class="card-top-side-icons">
+                                <button class="card-top-side-compare"></button>
+                                <button class="card-top-side-favourites"></button>
+                            </div>
+                        </div>
+                        <div class="card-body">
+                            <img class="card-pic" src="img/card/2.jpg" alt="Asus ZenFone Go ZB452KG (black and white)">
+                            <h3 class="card-title">Asus ZenFone Go ZB452KG (black and white)</h3>
+                            <div class="card-rate">
+                                <div class="card-stars">
+                                    <img src="img/card/star.svg" alt="" class="card-star">
+                                    <img src="img/card/star.svg" alt="" class="card-star">
+                                    <img src="img/card/star.svg" alt="" class="card-star">
+                                    <img src="img/card/star-half.svg" alt="" class="card-star-half">
+                                    <img src="img/card/star-empty.svg" alt="" class="card-star-empty">
+                                </div>
+                                <p class="card-rate-text">12</p>
+                            </div>
+                            <div class="card-price">
+                                <p class="card-price-value">$ 384.4</p>
+                                <img src="img/svg/icon-cart.svg" class="card-price-cart-icon"></img>
+                            </div>
+                        </div>
+                    </div>
+                <!-- //Card -->
+                <!-- Card -->
+                <div class="card">
+                    <div class="card-top-side">
+                        <div class="card-top-side-text">SALE</div>
+                        <div class="card-top-side-icons">
+                            <button class="card-top-side-compare"></button>
+                            <button class="card-top-side-favourites"></button>
+                        </div>
+                    </div>
+                    <div class="card-body">
+                        <img class="card-pic" src="img/card/3.jpg" alt="Asus ZenFone Go ZB452KG (black and white)">
+                        <h3 class="card-title">Asus ZenFone Go ZB452KG (black and white)</h3>
+                        <div class="card-rate">
+                            <div class="card-stars">
+                                <img src="img/card/star.svg" alt="" class="card-star">
+                                <img src="img/card/star.svg" alt="" class="card-star">
+                                <img src="img/card/star.svg" alt="" class="card-star">
+                                <img src="img/card/star-half.svg" alt="" class="card-star-half">
+                                <img src="img/card/star-empty.svg" alt="" class="card-star-empty">
+                            </div>
+                            <p class="card-rate-text">12</p>
+                        </div>
+                        <div class="card-price">
+                            <p class="card-price-value">$ 384.4</p>
+                            <img src="img/svg/icon-cart.svg" class="card-price-cart-icon"></img>
+                        </div>
+                    </div>
+                </div>
+            <!-- //Card -->
+            <!-- Card -->
+            <div class="card">
+                <div class="card-top-side">
+                    <div class="card-top-side-text">SALE</div>
+                    <div class="card-top-side-icons">
+                        <button class="card-top-side-compare"></button>
+                        <button class="card-top-side-favourites"></button>
+                    </div>
+                </div>
+                <div class="card-body">
+                    <img class="card-pic" src="img/card/4.jpg" alt="Asus ZenFone Go ZB452KG (black and white)">
+                    <h3 class="card-title">Asus ZenFone Go ZB452KG (black and white)</h3>
+                    <div class="card-rate">
+                        <div class="card-stars">
+                            <img src="img/card/star.svg" alt="" class="card-star">
+                            <img src="img/card/star.svg" alt="" class="card-star">
+                            <img src="img/card/star.svg" alt="" class="card-star">
+                            <img src="img/card/star-half.svg" alt="" class="card-star-half">
+                            <img src="img/card/star-empty.svg" alt="" class="card-star-empty">
+                        </div>
+                        <p class="card-rate-text">12</p>
+                    </div>
+                    <div class="card-price">
+                        <p class="card-price-value">$ 384.4</p>
+                        <img src="img/svg/icon-cart.svg" class="card-price-cart-icon"></img>
+                    </div>
+                </div>
+            </div>
+            <!-- //Card --> 
+            <!-- Card -->
+            <div class="card">
+                <div class="card-top-side">
+                    <div class="card-top-side-text">SALE</div>
+                    <div class="card-top-side-icons">
+                        <button class="card-top-side-compare"></button>
+                        <button class="card-top-side-favourites"></button>
+                    </div>
+                </div>
+                <div class="card-body">
+                    <img class="card-pic" src="img/card/5.jpg" alt="Asus ZenFone Go ZB452KG (black and white)">
+                    <h3 class="card-title">Asus ZenFone Go ZB452KG (black and white)</h3>
+                    <div class="card-rate">
+                        <div class="card-stars">
+                            <img src="img/card/star.svg" alt="" class="card-star">
+                            <img src="img/card/star.svg" alt="" class="card-star">
+                            <img src="img/card/star.svg" alt="" class="card-star">
+                            <img src="img/card/star-half.svg" alt="" class="card-star-half">
+                            <img src="img/card/star-empty.svg" alt="" class="card-star-empty">
+                        </div>
+                        <p class="card-rate-text">12</p>
+                    </div>
+                    <div class="card-price">
+                        <p class="card-price-value">$ 384.4</p>
+                        <img src="img/svg/icon-cart.svg" class="card-price-cart-icon"></img>
+                    </div>
+                </div>
+            </div>
+            <!-- //Card -->
+            <!-- Card -->
+            <div class="card">
+                <div class="card-top-side">
+                    <div class="card-top-side-text">SALE</div>
+                    <div class="card-top-side-icons">
+                        <button class="card-top-side-compare"></button>
+                        <button class="card-top-side-favourites"></button>
+                    </div>
+                </div>
+                <div class="card-body">
+                    <img class="card-pic" src="img/card/6.jpg" alt="Asus ZenFone Go ZB452KG (black and white)">
+                    <h3 class="card-title">Asus ZenFone Go ZB452KG (black and white)</h3>
+                    <div class="card-rate">
+                        <div class="card-stars">
+                            <img src="img/card/star.svg" alt="" class="card-star">
+                            <img src="img/card/star.svg" alt="" class="card-star">
+                            <img src="img/card/star.svg" alt="" class="card-star">
+                            <img src="img/card/star-half.svg" alt="" class="card-star-half">
+                            <img src="img/card/star-empty.svg" alt="" class="card-star-empty">
+                        </div>
+                        <p class="card-rate-text">12</p>
+                    </div>
+                    <div class="card-price">
+                        <p class="card-price-value">$ 384.4</p>
+                        <img src="img/svg/icon-cart.svg" class="card-price-cart-icon"></img>
+                    </div>
+                </div>
+            </div>
+            <!-- //Card -->
+                
+
+                    </div>
+                    <!-- //Cards -->
+                </div>
+                <!--// Right column -->
+            </div>
+        </div>
+    </main>
+    <footer class="footer">
+        <div class="footer-wrapper">
+            <div class="footer-top-line">
+                <a href="index.html" class="footer-logo-link">
+                    <div class="footer-logo">
+                      Quantum
+                    </div>
+                </a>
+                <ul class="footer-nav">
+                    <li class="footer-nav-item">
+                        <select name="" id="" class="footer-search-breakdown">
+                            <option value="" class="footer-nav-select-title">Shop</option>
+                        </select>
+                    </li>
+                    <li class="footer-nav-item"><a class="footer-nav-item-link" href="#!">Journal</a></li>
+                    <li class="footer-nav-item"><a class="footer-nav-item-link" href="#!">About</a></li>
+                    <li class="footer-nav-item"><a class="footer-nav-item-link" href="#!">Contacts</a></li>
+                </ul>
+                <div class="footer-social">
+                    <div class="footer-social-item">
+                        <a href="#!"><img src="./img/svg/ic_facebook.svg" alt="Facebook"></a>
+                    </div>
+                    <div class="footer-social-item">
+                        <a href="#!"><img src="./img/svg/ic_twitter.svg" alt="Twitter"></a>
+                    </div>
+                    <div class="footer-social-item">
+                        <a href="#!"><img src="./img/svg/ic_instagram.svg" alt="Instagram"></a>
+                    </div>
+                    <div class="footer-social-item">
+                        <a href="#!"><img src="./img/svg/ic_youtube.svg" alt="YouTube"></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="borderline">
+        </div>
+        <div class="footer-wrapper">
+            <div class="footer-bottom-line">
+                <div class="footer-bottom-line-copyright">
+                    <ul class="footer-bottom-line-copyright-list">
+                        <li class="footer-bottom-line-copyright-item"><a href="#!" class="footer-bottom-line-copyright-link">© 2016. Quantum UI kit</a></li>
+                        <li class="footer-bottom-line-copyright-item"><a href="#!" class="footer-bottom-line-copyright-link">Privacy Policy</a></li>
+                        <li class="footer-bottom-line-copyright-item"><a href="#!" class="footer-bottom-line-copyright-link">Terms of Use</a></li>
+                    </ul>
+                </div>
+                <div class="footer-bottom-line-payments">
+                    <ul class="footer-bottom-line-list">Accepted payment methods
+                        <li class="footer-bottom-line-item"><a class="footer-bottom-line-link" href="#!"><img class="footer-bottom-line-thumb" src="./img/svg/visa.svg" alt="Visa card"></a></li>
+                        <li class="footer-bottom-line-item"><a class="footer-bottom-line-link" href="#!"><img class="footer-bottom-line-thumb" src="./img/svg/mastercard.svg" alt="Mastercard card"></a></li>
+                        <li class="footer-bottom-line-item"><a class="footer-bottom-line-link" href="#!"><img class="footer-bottom-line-thumb" src="./img/svg/paypal.svg" alt="Paypal card"></a></li>
+                        <li class="footer-bottom-line-item"><a class="footer-bottom-line-link" href="#!"><img class="footer-bottom-line-thumb" src="./img/svg/amazon.svg" alt="Amazon card"></a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="./libs/jquery/jquery-3.5.1.min.js"></script>
+    <script src="./libs/owl-carousel/owl.carousel.min.js"></script>
     <script src="js/main.js"></script>
+    <script src="js/header-select.js"></script>
     
 </body>
 </html>

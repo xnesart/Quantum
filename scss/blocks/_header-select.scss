@@ -1,7 +1,7 @@
 .header-search-breakdown {
   display: flex;
   align-items: center;
-  padding-right: 25px;
+  padding-right: 15px;
 }
 .header-select {
   width: 100%;
@@ -21,16 +21,17 @@
   line-height: 1;
   letter-spacing: 1.25px;
   width: 89px;
+  margin-left: 30px;
 
   &::after {
     content: "";
     position: absolute;
-    right: 0;
-    top: 3px;
+    right: 10px;
+    top: 2px;
     display: block;
     width: 10px;
     height: 5px;
-    background-image: url("./../img/svg/dropdown-arrow.svg");
+    background-image: url(".././img/svg/dropdown-arrow.svg");
   }
 }
 .header-categories-title-link {

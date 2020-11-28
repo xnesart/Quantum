@@ -1,5 +1,5 @@
 //Base
-
+@import "./mixin/mixin";
 @import "./base/base";
 
 //Blocks
@@ -9,4 +9,16 @@
 @import "./blocks/header-buttons";
 @import "./blocks/header-bottom-menu";
 @import "./blocks/header-all-categories";
+@import "./blocks/main-slider";
+@import "./blocks/carousel-theme";
+@import "./blocks/promo-section";
+@import "./blocks/promo-section-item";
+@import "./blocks/navigation";
+@import "./blocks/main-container";
+@import "./blocks/info";
+@import "./blocks/tabs";
+@import "./blocks/cards";
+@import "./blocks/footer";
+
+
 

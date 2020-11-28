@@ -1,9 +1,9 @@
 // HEADER categories start
 .header-bottom-menu {
+    display: flex;
     border-top: $border;
     height: 60px;
     position: relative;
-    padding-top: 0;
     margin-top: 30px;
   }
   .header-categories-list {
@@ -15,8 +15,10 @@
     font-size: 14px;
     line-height: 1;
     color: #808080;
-    height: 60px;
-    // width: 300px;
+    height: 62px;
+    padding-top: 8px;
+    text-align: center;
+    margin-left: 20px;
     font-family: "Roboto", "Arial", sans-serif;
   }
   .header-list-button {
@@ -27,7 +29,7 @@
     color: #808080;
     font-weight: 500;
     font-size: 14px;
-    line-height: 60px;
+    line-height: 50px;
     width: 200px;
     border: none;
     cursor: pointer;
@@ -42,7 +44,7 @@
     width: 150px;
     top: 40px;
     background-color: #fff;
-    z-index: 1;
+    z-index: 10;
   }
   .header-categories-link {
     text-decoration: none;
@@ -56,19 +58,20 @@
   // HEADER offers start
   .header-offers {
     display: flex;
-    justify-content: space-between;
     align-items: center;
-    height: 60px;
-    padding-right: 30px;
-    flex-grow: 1;
   }
   .header-offers-list {
     list-style: none;
     display: flex;
-    justify-content: space-between;
+    padding-top: 5px;
+    height: 60px;
+    margin-left: 12px;
   }
-  .header-offers-item {
-    padding-right: 30px;
+  .header-offers-item:not(:first-child) {
+    margin-left: 35px;
+  }
+  .header-offers-item:last-child {
+    margin-right: 0;
   }
   .header-offers-links {
     font-family: "Roboto", "Arial", sans-serif;
@@ -82,28 +85,35 @@
   
   // HEADER tools start
   .header-tools {
+    padding: 0;
+    margin: 0;
     display: flex;
-    justify-content: space-between;
     align-items: center;
+    // justify-content: center;
     height: 60px;
   }
   .header-tools-item {
     position: relative;
     display: flex;
     align-items: center;
-    // padding-right: 15px;
-    // padding-left: 30px;
     border-right: $border;
     height: 60px;
     cursor: pointer;
+    padding-top: 8px;
   }
   .header-tools-item:first-child {
-    padding-left: 30px;
     border-left: $border;
+    margin-left: 66px;
+    padding-left: 10px;
+    padding-right: 20px;
+  }
+  .header-tools-item:nth-child(2) {
+    margin-left: 7px;
+    padding-right: 20px;
   }
   .header-tools-item:last-child {
     border-right: none;
-    max-width: 120px;
+    margin-left: 10px;
   }
   .header-tools-title {
     position: relative;
@@ -121,9 +131,9 @@
   .header-tools-title::after {
     position: absolute;
     top: 12px;
-    right: 15px;
+    right: 10px;
 
-    background-image: url(/img/svg/dropdown-arrow.svg);
+    background-image: url(.././img/svg/dropdown-arrow.svg);
     background-repeat: no-repeat;
     width: 10px;
     height: 10px;
@@ -133,15 +143,20 @@
     color: #808080;
     text-decoration: none;
   }
+  .header-list-item {
+    border: $border;
+    text-align: center;
+  }
   .header-tools-list {
     list-style: none;
     position: absolute;
-    width: 100px;
+    width: 100%;
     top: 40px;
     left: 0;
     background-color: #fff;
     color: #808080;
-    z-index: 1;
+    z-index: 10;
+
   }
   .search-breakdown {
     font-family: "Roboto", "Arial", sans-serif;
